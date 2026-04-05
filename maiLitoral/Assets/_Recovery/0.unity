@@ -2282,7 +2282,6 @@ GameObject:
   - component: {fileID: 54080602}
   - component: {fileID: 54080604}
   - component: {fileID: 54080603}
-  - component: {fileID: 54080605}
   m_Layer: 0
   m_Name: SelectedDateText
   m_TagString: Untagged
@@ -2307,7 +2306,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 43.321}
+  m_SizeDelta: {x: 181.4697, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &54080603
 MonoBehaviour:
@@ -2329,7 +2328,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ziua selectata:\t"
+  m_text: Selecteaza o zi
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2395,7 +2394,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 10.802185, y: 0, z: 0, w: 0}
+  m_margin: {x: -172.35742, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2409,26 +2408,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54080601}
   m_CullTransparentMesh: 1
---- !u!114 &54080605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54080601}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.LayoutElement
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: -1
-  m_PreferredHeight: -1
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
 --- !u!1 &55752836
 GameObject:
   m_ObjectHideFlags: 0
@@ -2695,8 +2674,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 134.86, y: -168.9832}
-  m_SizeDelta: {x: 850.01, y: 192.9704}
+  m_AnchoredPosition: {x: 84.523, y: 1003}
+  m_SizeDelta: {x: 532.7826, y: 184.63208}
   m_Pivot: {x: 0.658645, y: 0.36179256}
 --- !u!114 &63395161
 MonoBehaviour:
@@ -2711,15 +2690,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
   m_Padding:
-    m_Left: 15
-    m_Right: 15
-    m_Top: 10
-    m_Bottom: 10
-  m_ChildAlignment: 0
-  m_Spacing: 3
+    m_Left: 20
+    m_Right: 0
+    m_Top: 2
+    m_Bottom: 2
+  m_ChildAlignment: 4
+  m_Spacing: 2
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 1
+  m_ChildControlWidth: 0
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
@@ -2737,7 +2716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4392157, g: 0.4509804, b: 0.627451, a: 0.46666667}
+  m_Color: {r: 0.4392157, g: 0.4509804, b: 0.627451, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3226,7 +3205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.98490566, g: 0.07990736, b: 0.07990736, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -4806,7 +4785,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -3, y: -117}
+  m_AnchoredPosition: {x: 0, y: -75}
   m_SizeDelta: {x: 900, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &113491774
@@ -9702,7 +9681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -23134,7 +23113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.21899574, g: 0.039067253, b: 0.3509434, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -24265,13 +24244,17 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1892276088}
   - {fileID: 602135671}
+  - {fileID: 1892276088}
+  - {fileID: 1301909797}
+  - {fileID: 1082110531}
+  - {fileID: 1375080144}
+  - {fileID: 1464069848}
   m_Father: {fileID: 988329644}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12, y: 1471}
+  m_AnchoredPosition: {x: 28.619, y: 1422}
   m_SizeDelta: {x: 957.2374, y: 738.2599}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &553042247
@@ -24464,7 +24447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.21899574, g: 0.039067253, b: 0.3509434, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -25565,7 +25548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.21899574, g: 0.039067253, b: 0.3509434, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -26776,8 +26759,6 @@ GameObject:
   - component: {fileID: 602135671}
   - component: {fileID: 602135673}
   - component: {fileID: 602135672}
-  - component: {fileID: 602135675}
-  - component: {fileID: 602135674}
   m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
@@ -26796,17 +26777,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1301909797}
-  - {fileID: 1082110531}
-  - {fileID: 1375080144}
-  - {fileID: 1464069848}
+  m_Children: []
   m_Father: {fileID: 553042246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.5, y: -436.96487}
-  m_SizeDelta: {x: 957, y: 602.06824}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -67.964874}
+  m_SizeDelta: {x: 0, y: -135.9318}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &602135672
 MonoBehaviour:
@@ -26846,46 +26823,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602135670}
   m_CullTransparentMesh: 1
---- !u!114 &602135674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 602135670}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ContentSizeFitter
-  m_HorizontalFit: 0
-  m_VerticalFit: 0
---- !u!114 &602135675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 602135670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
-  m_Padding:
-    m_Left: 5
-    m_Right: 5
-    m_Top: 600
-    m_Bottom: 20
-  m_ChildAlignment: 0
-  m_Spacing: 10
-  m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 1
-  m_ChildControlHeight: 1
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
-  m_ReverseArrangement: 0
 --- !u!1 &604043830
 GameObject:
   m_ObjectHideFlags: 0
@@ -33748,7 +33685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -34684,7 +34621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.21899574, g: 0.039067253, b: 0.3509434, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -34867,7 +34804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.98490566, g: 0.07990736, b: 0.07990736, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -37837,7 +37774,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 40.22}
+  m_SizeDelta: {x: 531.10986, y: 57.64099}
   m_Pivot: {x: 0.30564678, y: 0.5}
 --- !u!114 &868259861
 MonoBehaviour:
@@ -38918,7 +38855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.21899574, g: 0.039067253, b: 0.3509434, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -44199,7 +44136,6 @@ GameObject:
   - component: {fileID: 978750857}
   - component: {fileID: 978750856}
   - component: {fileID: 978750858}
-  - component: {fileID: 978750859}
   m_Layer: 0
   m_Name: Day (6)
   m_TagString: Untagged
@@ -44311,25 +44247,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &978750859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978750854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1408a27c7903f284394f40f90368fb0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CalendarDayUI
-  dayText: {fileID: 756461608}
-  statusImage: {fileID: 1585571492}
-  highlightObject: {fileID: 560424142}
-  button: {fileID: 978750858}
-  dayNumber: 0
-  status: 
-  reason: 
 --- !u!1 &979694872
 GameObject:
   m_ObjectHideFlags: 0
@@ -44535,7 +44452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -44822,7 +44739,6 @@ GameObject:
   - component: {fileID: 988329647}
   - component: {fileID: 988329646}
   - component: {fileID: 988329645}
-  - component: {fileID: 988329648}
   m_Layer: 0
   m_Name: BeachCalendar
   m_TagString: Untagged
@@ -44842,17 +44758,17 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2041913895}
   - {fileID: 1535525622}
   - {fileID: 1618163665}
   - {fileID: 1838151916}
   - {fileID: 63395160}
   - {fileID: 553042246}
+  - {fileID: 2041913895}
   m_Father: {fileID: 2147221035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -366}
+  m_AnchoredPosition: {x: 0, y: -500}
   m_SizeDelta: {x: 900, y: 900}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &988329645
@@ -44908,33 +44824,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988329643}
   m_CullTransparentMesh: 1
---- !u!114 &988329648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 988329643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2648773785cfe1541b9210e2d6d9a2de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BeachCalendarManager
-  allDays:
-  - {fileID: 2077816008}
-  - {fileID: 1130605942}
-  - {fileID: 1991125348}
-  - {fileID: 2023399804}
-  - {fileID: 1822372289}
-  - {fileID: 1890105870}
-  - {fileID: 978750859}
-  infoPanel: {fileID: 63395159}
-  selectedDateText: {fileID: 54080603}
-  selectedStatusText: {fileID: 868259861}
-  selectedReasonText: {fileID: 996378080}
-  leftButton: {fileID: 1618163666}
-  rightButton: {fileID: 1838151917}
-  monthTitleText: {fileID: 2041913896}
 --- !u!1 &990014736
 GameObject:
   m_ObjectHideFlags: 0
@@ -45295,8 +45184,8 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 40.22}
-  m_Pivot: {x: 0.32348797, y: -0.9116117}
+  m_SizeDelta: {x: 531.10986, y: 57.64099}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &996378080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48889,7 +48778,7 @@ RectTransform:
   m_Children:
   - {fileID: 613501249}
   - {fileID: 420181873}
-  m_Father: {fileID: 602135671}
+  m_Father: {fileID: 553042246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -51466,7 +51355,6 @@ GameObject:
   - component: {fileID: 1130605940}
   - component: {fileID: 1130605939}
   - component: {fileID: 1130605941}
-  - component: {fileID: 1130605942}
   m_Layer: 0
   m_Name: Day (1)
   m_TagString: Untagged
@@ -51578,25 +51466,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1130605942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1130605937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1408a27c7903f284394f40f90368fb0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CalendarDayUI
-  dayText: {fileID: 2081836630}
-  statusImage: {fileID: 1240048577}
-  highlightObject: {fileID: 1789340717}
-  button: {fileID: 1130605941}
-  dayNumber: 0
-  status: 
-  reason: 
 --- !u!1 &1132998533
 GameObject:
   m_ObjectHideFlags: 0
@@ -53297,7 +53166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -56314,7 +56183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.85660374, g: 0.80161315, b: 0.166472, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -58840,10 +58709,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 392869069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 47, y: 899}
-  m_SizeDelta: {x: 249.1474, y: 203.24}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -451, y: 609}
+  m_SizeDelta: {x: 316.2337, y: 246.4758}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1280272357
 MonoBehaviour:
@@ -59951,7 +59820,7 @@ RectTransform:
   m_Children:
   - {fileID: 1668026177}
   - {fileID: 564022517}
-  m_Father: {fileID: 602135671}
+  m_Father: {fileID: 553042246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -64338,7 +64207,7 @@ RectTransform:
   m_Children:
   - {fileID: 1851870582}
   - {fileID: 121061900}
-  m_Father: {fileID: 602135671}
+  m_Father: {fileID: 553042246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -68093,7 +67962,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.1333333, g: 0.5450981, b: 0.1333333, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -69376,7 +69245,7 @@ RectTransform:
   m_Children:
   - {fileID: 1478293121}
   - {fileID: 507441193}
-  m_Father: {fileID: 602135671}
+  m_Father: {fileID: 553042246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -72325,7 +72194,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -83, y: -117}
+  m_AnchoredPosition: {x: -50, y: -75}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1516142443
@@ -72606,7 +72475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -73801,7 +73670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.3, g: 0.3, b: 0.3, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -75280,7 +75149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.98490566, g: 0.07990736, b: 0.07990736, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -80933,7 +80802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6, y: -669}
+  m_AnchoredPosition: {x: 0, y: -666}
   m_SizeDelta: {x: 580, y: -1623.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1693128844
@@ -84525,7 +84394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.21899574, g: 0.039067253, b: 0.3509434, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -85702,7 +85571,6 @@ GameObject:
   - component: {fileID: 1822372287}
   - component: {fileID: 1822372286}
   - component: {fileID: 1822372288}
-  - component: {fileID: 1822372289}
   m_Layer: 0
   m_Name: Day (4)
   m_TagString: Untagged
@@ -85814,25 +85682,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1822372289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1822372284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1408a27c7903f284394f40f90368fb0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CalendarDayUI
-  dayText: {fileID: 1170562676}
-  statusImage: {fileID: 1565147775}
-  highlightObject: {fileID: 580256277}
-  button: {fileID: 1822372288}
-  dayNumber: 0
-  status: 
-  reason: 
 --- !u!1 &1826943117
 GameObject:
   m_ObjectHideFlags: 0
@@ -89155,7 +89004,6 @@ GameObject:
   - component: {fileID: 1890105868}
   - component: {fileID: 1890105867}
   - component: {fileID: 1890105869}
-  - component: {fileID: 1890105870}
   m_Layer: 0
   m_Name: Day (5)
   m_TagString: Untagged
@@ -89267,25 +89115,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1890105870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890105865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1408a27c7903f284394f40f90368fb0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CalendarDayUI
-  dayText: {fileID: 212795838}
-  statusImage: {fileID: 73261835}
-  highlightObject: {fileID: 531328506}
-  button: {fileID: 1890105869}
-  dayNumber: 0
-  status: 
-  reason: 
 --- !u!1 &1890136721
 GameObject:
   m_ObjectHideFlags: 0
@@ -92462,7 +92291,6 @@ GameObject:
   - component: {fileID: 1991125346}
   - component: {fileID: 1991125345}
   - component: {fileID: 1991125347}
-  - component: {fileID: 1991125348}
   m_Layer: 0
   m_Name: Day (2)
   m_TagString: Untagged
@@ -92574,25 +92402,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1991125348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991125343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1408a27c7903f284394f40f90368fb0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CalendarDayUI
-  dayText: {fileID: 984802427}
-  statusImage: {fileID: 1441465978}
-  highlightObject: {fileID: 774328494}
-  button: {fileID: 1991125347}
-  dayNumber: 0
-  status: 
-  reason: 
 --- !u!1 &1999866788
 GameObject:
   m_ObjectHideFlags: 0
@@ -93878,7 +93687,6 @@ GameObject:
   - component: {fileID: 2023399802}
   - component: {fileID: 2023399801}
   - component: {fileID: 2023399803}
-  - component: {fileID: 2023399804}
   m_Layer: 0
   m_Name: Day (3)
   m_TagString: Untagged
@@ -93990,25 +93798,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2023399804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2023399799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1408a27c7903f284394f40f90368fb0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CalendarDayUI
-  dayText: {fileID: 1522396922}
-  statusImage: {fileID: 778811498}
-  highlightObject: {fileID: 888935403}
-  button: {fileID: 2023399803}
-  dayNumber: 0
-  status: 
-  reason: 
 --- !u!1 &2024249938
 GameObject:
   m_ObjectHideFlags: 0
@@ -94124,7 +93913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.21899574, g: 0.039067253, b: 0.3509434, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -94713,7 +94502,7 @@ GameObject:
   - component: {fileID: 2041913897}
   - component: {fileID: 2041913896}
   m_Layer: 0
-  m_Name: MonthDates
+  m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96213,7 +96002,7 @@ GameObject:
   - component: {fileID: 2077816005}
   - component: {fileID: 2077816004}
   - component: {fileID: 2077816006}
-  - component: {fileID: 2077816008}
+  - component: {fileID: 2077816007}
   m_Layer: 0
   m_Name: Day
   m_TagString: Untagged
@@ -96325,9 +96114,45 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 54080603}
+        m_TargetAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+        m_MethodName: SetText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 31 Martie
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 868259861}
+        m_TargetAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+        m_MethodName: SetText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 'Status: Risc ridicat'
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 996378080}
+        m_TargetAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+        m_MethodName: SetText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "Apa a fost tulbure \u0219i curen\u021Bii au fost puternici."
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 63395159}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -96337,7 +96162,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2077816008
+--- !u!114 &2077816007
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96346,16 +96171,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2077816002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1408a27c7903f284394f40f90368fb0d, type: 3}
+  m_Script: {fileID: 11500000, guid: 765a212fca444da4a9a874da83dab852, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CalendarDayUI
-  dayText: {fileID: 1457813106}
-  statusImage: {fileID: 1900240746}
-  highlightObject: {fileID: 2025000390}
-  button: {fileID: 2077816006}
-  dayNumber: 0
-  status: 
-  reason: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &2078979689
 GameObject:
   m_ObjectHideFlags: 0
@@ -96797,7 +96615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:

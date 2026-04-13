@@ -1,10 +1,11 @@
 using UnityEngine;
 
 public class AppearanceSelectionManager : MonoBehaviour {
-    public GameObject paletteSelection;
-    public GameObject themeSelection;
-    public GameObject appearancePanel;
+    [SerializeField] private GameObject paletteSelection;
+    [SerializeField] private GameObject themeSelection;
+    [SerializeField] private GameObject appearancePanel;
 
+    // Toggle palette panel
     public void TogglePaletteSelection() {
         if (paletteSelection == null || themeSelection == null) {
             return;
@@ -20,6 +21,7 @@ public class AppearanceSelectionManager : MonoBehaviour {
         }
     }
 
+    // Toggle theme panel
     public void ToggleThemeSelection() {
         if (paletteSelection == null || themeSelection == null) {
             return;
@@ -35,6 +37,7 @@ public class AppearanceSelectionManager : MonoBehaviour {
         }
     }
 
+    // Handle back navigation
     public void HandleBackButton() {
         if (paletteSelection != null && paletteSelection.activeSelf) {
             paletteSelection.SetActive(false);
@@ -46,7 +49,7 @@ public class AppearanceSelectionManager : MonoBehaviour {
             return;
         }
 
-        if (appearancePanel != null) { 
+        if (appearancePanel != null) {
             appearancePanel.SetActive(false);
         }
     }

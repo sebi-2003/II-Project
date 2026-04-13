@@ -1,9 +1,10 @@
 using UnityEngine;
 
 public class LanguageSelectionManager : MonoBehaviour {
-    public GameObject romanianCheck;
-    public GameObject englishCheck;
+    [SerializeField] private GameObject romanianCheck;
+    [SerializeField] private GameObject englishCheck;
 
+    // Select Romanian language
     public void SelectRomanian() {
         if (romanianCheck == null || englishCheck == null) {
             return;
@@ -19,6 +20,7 @@ public class LanguageSelectionManager : MonoBehaviour {
         }
     }
 
+    // Select English language
     public void SelectEnglish() {
         if (romanianCheck == null || englishCheck == null) {
             return;
